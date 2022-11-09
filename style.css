@@ -129,8 +129,18 @@
 /*About page CSS content*/
 
 #about-para p{
-  font-size: 100px; 
+  font-size: 150px; 
   text-align: center;
+  color: #fff;
+}
+
+#about-para img{
+  height:782px;
+  width:714px;
+  /* Original dimensitions
+  height:1043px;
+  width:953px;
+  */
 }
 
 /* Contact page CSS content */
@@ -255,6 +265,15 @@
 
     .wrapper .carousel{
       scroll-behavior: smooth;
+    }
+
+    #about-para p{
+      font-size:50px; 
+    }
+
+    #about-para img{
+      height:260px;
+      width:238px;
     }
 
 }
