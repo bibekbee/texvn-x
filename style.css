@@ -276,9 +276,6 @@
       width:238px;
     }
     
-    #learn-para{
-      padding-top: 20px;
-  }
   
     #learn-para p{
       font-size:14px; 
@@ -287,6 +284,7 @@
     #learn-para h1{
       font-size:50px; 
       color: #fff;
+      padding-top: 30px;
     }
     
      #learn-para h2{
@@ -294,7 +292,7 @@
       color: #fff; 
     }
     
-    #learn-para a{
+    #codeP{
       text-decoration: none; 
       color: #fff;
       border: 2px solid #191970;
