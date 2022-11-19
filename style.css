@@ -126,6 +126,33 @@
   margin-bottom: 100px;
 }
 
+/*Learn Page CSS */
+  .learn-para{
+      padding-top: 30px;
+    }
+  
+    .learn-para p{
+      font-size:14px; 
+    }
+    
+    #learn-h1{
+      font-size:50px; 
+      color: #fff;
+      
+    }
+    
+     .learn-para h2{
+      font-size:25px; 
+      color: #fff; 
+    }
+    
+   .learn-para a{
+      text-decoration: none; 
+      color: #fff;
+      border: 2px solid #191970;
+      padding: 5px 5px;
+  }
+
 /*About page CSS content*/
 
 #about-para p{
@@ -275,30 +302,5 @@
       height:260px;
       width:238px;
     }
-  
-    .learn-para{
-      padding-top: 30px;
-    }
-  
-    .learn-para p{
-      font-size:14px; 
-    }
-    
-    #learn-h1{
-      font-size:50px; 
-      color: #fff;
-      
-    }
-    
-     .learn-para h2{
-      font-size:25px; 
-      color: #fff; 
-    }
-    
-   .learn-para a{
-      text-decoration: none; 
-      color: #fff;
-      border: 2px solid #191970;
-      padding: 5px 5px;
-  }
+ 
 }
