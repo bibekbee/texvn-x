@@ -282,10 +282,12 @@
     
     #learn-para h1{
       font-size:50px; 
+      color: #fff;
     }
     
      #learn-para h2{
       font-size:25px; 
+      color: #fff; 
     }
 
 }
