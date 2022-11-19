@@ -133,12 +133,13 @@
   
     .learn-para p{
       font-size:14px; 
+      padding: 0 90px;
     }
     
     #learn-h1{
       font-size:50px; 
       color: #fff;
-      
+      padding-top: 30px;
     }
     
      .learn-para h2{
