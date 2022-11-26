@@ -127,33 +127,49 @@
 }
 
 /*Learn Page CSS */
-  .learn-para{
-      padding-top: 30px;
+  learn-para{
+      padding-top: 30px;    
     }
+    
+ .wrapper{
+   background-color: #F4D03F;
+   border-radius: 20px;
+   margin: 10px 0;
+   padding: 5px 0;
+ }   
   
     .learn-para p{
-      font-size:14px; 
-      padding: 0 90px;
+      font-size:20px; 
+      padding: 0 90px 20px 90px;
+      margin: 0;
     }
     
     #learn-h1{
-      font-size:50px; 
+      font-size: 50px; 
       color: #fff;
       padding-top: 30px;
     }
     
      .learn-para h2{
-      font-size:25px; 
-      color: #fff; 
+      font-size: 25px; 
+      color: #212F3D;
+      padding-top: 10px;
+      margin-top: 0;
+      
     }
     
    .learn-para a{
-      text-decoration: none; 
+      text-decoration: none;
       color: #fff;
-      border: 2px solid #191970;
-      padding: 5px 5px;
+      background-color: #85C1E9;
+      padding: 5px 15px;
+      float: right;
+      border-radius: 30px;
   }
-
+  
+   .learn-para a:hover{
+     background-color: #2E86C1;
+   }
 /*About page CSS content*/
 
 #about-para p{
