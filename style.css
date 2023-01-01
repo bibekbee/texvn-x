@@ -127,15 +127,23 @@
 }
 
 /*Learn Page CSS */
+  .SysGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   learn-para{
       padding-top: 30px;    
     }
     
  .wrapperlink{
-   background-color: #F4D03F;
+   display: grid;
+   gap: 3px;
+   background-color: #EBEDEF;
    border-radius: 20px;
    margin: 10px 30px;
    padding: 5px 0;
+   
  }   
   
     .wrapperlink p{
@@ -146,8 +154,11 @@
     
     #learn-h1{
       font-size: 50px; 
-      color: #fff;
+      color: #566573  ;
       padding-top: 30px;
+      padding-bottom: 30px;
+      box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      margin-bottom: 40px;
     }
     
      .wrapperlink h2{
@@ -161,15 +172,20 @@
    .wrapperlink a{
       text-decoration: none;
       color: #fff;
-      background-color: #85C1E9;
-      padding: 5px 15px;
-      float: right;
+      background-color: #2C3E50;
+      padding: 3px 15px;
       border-radius: 30px;
-      margin-top: -15px;
-  }
+      margin-top: 20px;
+      max-width: 300px;
+    }
   
    .wrapperlink a:hover{
-     background-color: #2E86C1;
+     background-color: #1C2833;
+   }
+
+   .spaceTaker{
+    padding-bottom: 50px;
+    background-color: #2C3E50;
    }
 /*About page CSS content*/
 
