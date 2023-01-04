@@ -214,6 +214,8 @@
 }
 
 @media(min-width:992px){
+
+
     #circle{
         height:745px;
         width:1052px;
@@ -243,6 +245,12 @@
       }
 }
 @media(max-width:576px){
+
+  .SysGrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  } 
+  
     #circle{
         height:236px;
         width:313px;
