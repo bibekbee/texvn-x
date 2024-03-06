@@ -16,7 +16,7 @@
 }
 
 .textDec{
-  color: #21223C;
+  color: #bababc;
 }
 
 .box2{
@@ -90,7 +90,8 @@
 }
 
 .vanspace2{
-    font-size:30px;
+    margin-inline: 50px;
+    font-size:22px;
     color : #fff;
 }
 .vanspace3{
