@@ -36,7 +36,7 @@
 }
 
 .gup{
-  padding:55px 55px 0 55px;
+  padding:55px;
 }
 
 .wrapper{
@@ -70,12 +70,9 @@
   width: calc(100%/3);
 }
 
-
 .carousel img:first-child{
   margin-left: 0px;
 }
-
-
 
 .callvan{
   color: White;
@@ -96,6 +93,7 @@
     color : #fff;
     margin-bottom:20px;
 }
+
 .vanspace3{
   margin:0 55px 0 55px;
   font-size:30px;
