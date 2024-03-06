@@ -296,9 +296,7 @@
     }
 
     .gup{
-      padding-bottom: 40px;
-      margin-inline: 20px;
-
+      padding:40px 0 40px 0;
     }
 
     .wrapper{
@@ -356,6 +354,17 @@
     #about-para img{
       height:260px;
       width:238px;
+    }
+
+    .gup2{
+      padding-left: 30px;
+      padding-bottom: 30px;
+      margin-left:0;
+      margin-right:0;
+    }
+
+    .social{
+      display: flex;
     }
  
 }
