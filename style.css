@@ -17,6 +17,7 @@
 
 .textDec{
   color: #bababc;
+  margin-left: 30px;
 }
 
 .box2{
@@ -292,6 +293,7 @@
     .gup{
       padding-bottom: 40px;
       margin-inline: 20px;
+
     }
 
     .wrapper{
