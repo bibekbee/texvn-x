@@ -38,10 +38,6 @@ carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 carousel.addEventListener("mouseup", dragStop);
 
-function loading(event){
-    console.log(event.target.id);
-}
-
 window.onload = () => {
     const link = document.getElementById('C-link');
     if(window.screen.width < 600){
