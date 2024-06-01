@@ -221,6 +221,15 @@
   background-image: url(images/eggs.jpg);
 }
 
+/* responsive width for project image */
+.pro-w{
+  width: 30rem;
+}
+
+.m-inline{
+  margin-inline: 6rem;
+}
+
 @media(min-width:992px){
 
 
@@ -252,6 +261,7 @@
         width: calc(100%/2);
       }
 }
+
 @media(max-width:576px){
 
   .SysGrid{
@@ -366,5 +376,14 @@
     .social{
       display: flex;
     }
+
+    .pro-w{
+      width: 17rem;
+    }
+
+    .m-inline{
+      margin-inline: 3rem;
+    }
+    
  
 }

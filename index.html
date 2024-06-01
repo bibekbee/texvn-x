@@ -60,7 +60,7 @@
     <main>
             <div class="container-fluid bg-dark box row"> 
                 <div class="col-lg-5 col-sm-5 col-md-5">
-                    <img class="mt-5" id="circle" src="images/manwithcup2.png">
+                    <img class="mt-5" id="circle" loading="lazy" decoding="async" fetchpriority="high" src="images/manwithcup2.png">
                 </div>
                 <div class="col-lg-5 col-sm-7 col-md-7">
                     <p class="callvan">Hi there, <br> I'm Bibek</p>
@@ -96,6 +96,34 @@
                 </div>
             </div>
 
+            <div class="container-fluid mt-5">
+                <div class="m-inline">
+                    <div class="d-flex gap-3">
+                        <h1>Projects on github</h1>
+                        <a href="https://github.com/bibekbee" target='_blank'><img src="images/github.png" alt="github icon" height="50px" width="50px"/></a>
+                    </div>
+                <hr>
+                <div class="d-md-flex gap-4">
+                    <div class="mt-n1">
+                        <img class="pro-w" src="images/c-programming.png" alt="C programming"/>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <h3>A password manager written in C</h3>
+                        <p>
+                            This was my first low level programming experience. With C I learned about data types, <br>
+                            data structures like array, queue and stack, file handling, pointers and more.<br>
+                            The project was a final project submission for my PGDA program and I did all the coding part,<br>
+                            while my project partner did the documentation and UML Diagrams.<br>
+                            You can view the project here:<br>
+                            <a id='C-link' href="https://github.com/bibekbee/C_passManager"></a>
+                        </p>
+                    
+                    </div>
+                </div>
+                </div>
+                <hr class="m-inline" style="margin-inline: 6rem">
+            </div>
+
             <div class="container-fluid bg-body box gup2">
                 <h1 class="display-1 fw-bold ps-5 pt-5" data-aos="fade-down" data-aos-delay="100" data-aos-duration="300">
                    Illustrations
@@ -105,15 +133,15 @@
                  <div class="wrapper">
                     <i class="bi bi-caret-left-fill" id="left"></i>
                     <div class="carousel">
-                        <img src="images/texture.jpg" alt="Gradient Image">
-                        <img src="images/week.jpg" alt="Gradient Image">
-                        <img src="images/mobilr.jpg" alt="Man Image">
-                        <img src="images/piano.png" alt="Robo Image">
-                        <img src="images/tcup.jpg" alt="Hen Image">
-                        <img src="images/gradient.jpg" alt="Gradient Image">
-                        <img src="images/colbot.jpg" alt="Gradient Image">
-                        <img src="images/cock.jpg" alt="Gradient Image">
-                        <img src="images/man.jpg" alt="Gradient Image">
+                        <img loading="lazy" src="images/texture.jpg" alt="Gradient Image">
+                        <img loading="lazy" src="images/week.jpg" alt="Gradient Image">
+                        <img loading="lazy" src="images/mobilr.jpg" alt="Man Image">
+                        <img loading="lazy" src="images/piano.png" alt="Robo Image">
+                        <img loading="lazy" src="images/tcup.jpg" alt="Hen Image">
+                        <img loading="lazy" src="images/gradient.jpg" alt="Gradient Image">
+                        <img loading="lazy" src="images/colbot.jpg" alt="Gradient Image">
+                        <img loading="lazy" src="images/cock.jpg" alt="Gradient Image">
+                        <img loading="lazy" src="images/man.jpg" alt="Gradient Image">
                     </div>
                     <i class="bi bi-caret-right-fill" id="right"></i>
                  </div>
@@ -157,6 +185,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
             <script>
                 AOS.init();
-              </script>
+            </script>
+     
 </body>
 </html>
